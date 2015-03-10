@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
+/*Using border color to help with making site - delete at end -------------------*/
+* {
+	/*border: solid 1px lightgrey;*/
+	/*background-color: #fafafa;*/   /* #E6E6E6*/
+	margin: 0 auto;
+}
+
+
+body {
+	font-family: "Open Sans", Arial, sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-size: 13px;
+	color: #444;
+	max-width: 960px;
+	background-color: #fafafa;
+		margin: 0 auto;
+
+}
+
+#header {
+	text-align: center;
+	border-top: solid 5px #000;
+}
+
+.img-me img {
+	height: 125px;
+	margin: 10px;
+	margin-top: 40px;
+	border: solid 1px #444;
+	padding: 5px;
+}
+
+.info h1, h3, p {
+	margin: 10px;
+}
+
+.info h1 {
+	font-weight: 100;
+	margin-top: 30px;
+}
+
+.info p {
+	margin-bottom: 30px;
+}
+
+
+.social-media ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+ul {
+	display: inline-block;
+	margin: 5px 20px;
+}
+
+
+
+/*Using border color to help with creating - delete at end ----------------------------*/
+.row {
+	/*border: solid 1px yellow;*/
+}
